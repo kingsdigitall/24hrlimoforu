@@ -1,0 +1,22 @@
+{
+  "heading": "Contact us",
+  "subheading": "OVER 15,000 HAPPY CUSTOMERS",
+  "intro": "Reach out to our team for reservations, quotes, or any questions. We're available 24/7 to ensure your transportation is fast, safe, and seamless.",
+  "address": "Houston, TX",
+  "hours": "Mon–Sun: 7 AM – 9 PM",
+  "phone": "(123) 456-7890",
+  "email": "info@24hourlimoforyou.com",
+  "descriptions": [
+    "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.",
+    "If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text."
+  ],
+ 
+  "cta": {
+    "title": "Ready to ride in comfort?",
+    "subtitle": "Speak with our team or get an instant quote in under a minute.",
+    "buttonText": "Get a Quote",
+    "buttonHref": "#booking"
+  }
+}
+
+

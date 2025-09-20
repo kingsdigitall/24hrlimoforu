@@ -1,0 +1,152 @@
+{
+  "meta": {
+    "title": "Premium Fleet in Houston | Houston Luxury Vehicle Fleet",
+    "description": "Travel in style across Houston with our luxury fleet. Choose from sedans, SUVs, limousines, Sprinter vans, and shuttle buses for corporate events, proms, or group outings. Call us at (123) 456-7890!"
+  },
+  "hero": {
+    "h1": "Discover Houston's Premium Fleet With Our Elite Luxury Vehicles",
+    "subtitle": "Experience unmatched luxury and comfort with our diverse fleet of premium vehicles"
+  },
+  "vehicles": [
+    {
+      "id": "luxury-sedan",
+      "name": "Luxury Sedan",
+      "description": "Our luxury sedans provide unmatched comfort and style for travelers in Houston. Perfect for airport transfers, corporate travel, or special occasions, they seat up to three passengers with ample room for luggage, which ensures a smooth and relaxed ride.",
+      "image": "/feet/black-chrysler-limousine.jpg",
+      "capacity": "Up to 3 passengers",
+      "features": ["Airport transfers", "Corporate travel", "Special occasions", "Ample luggage space"],
+      "category": "sedan"
+    },
+    {
+      "id": "suvs-vans",
+      "name": "SUVs & Vans",
+      "description": "Designed for families, small groups, or travelers with extra luggage, our SUVs and vans offer spacious seating for up to six passengers. Ideal for airport transfers or city travel in Houston, they combine convenience, safety, and comfort for every journey.",
+      "image": "/feet/luxury-van.jpg",
+      "capacity": "Up to 6 passengers",
+      "features": ["Family travel", "Small groups", "Extra luggage space", "City travel"],
+      "category": "suv"
+    },
+    {
+      "id": "stretch-limos",
+      "name": "Stretch Limos",
+      "description": "Our stretch limousines seat up to eight adults and are perfect for proms, homecoming events, or nights out in Houston. With premium interiors and amenities, every ride becomes a memorable experience.",
+      "image": "/feet/stretch-limo.jpg",
+      "capacity": "Up to 8 adults",
+      "features": ["Proms", "Homecoming events", "Nights out", "Premium amenities"],
+      "category": "limo"
+    },
+    {
+      "id": "mercedes-sprinter",
+      "name": "Mercedes Sprinter",
+      "description": "The Mercedes Sprinter provides a spacious and comfortable ride for larger groups. Perfect for airport transfers, corporate events, or group outings, it ensures everyone travels together while enjoying a smooth and stylish journey.",
+      "image": "/feet/mercedes-sprinter.jpg",
+      "capacity": "Large groups",
+      "features": ["Airport transfers", "Corporate events", "Group outings", "Smooth journey"],
+      "category": "van"
+    },
+    {
+      "id": "mercedes-executive-shuttle",
+      "name": "Mercedes Executive Shuttle Van",
+      "description": "The Mercedes Executive Shuttle Van is ideal for VIP and corporate travel in Houston. With plush seating, Wi-Fi, and generous luggage space, it offers both comfort and convenience for business meetings, airport transfers, or city tours.",
+      "image": "/feet/mercedes-executive-shuttle-van.jpg",
+      "capacity": "VIP & Corporate",
+      "features": ["Wi-Fi", "Plush seating", "Business meetings", "City tours"],
+      "category": "van"
+    },
+    {
+      "id": "black-chrysler-limo",
+      "name": "Black Chrysler Limousine Up To 8 Adults",
+      "description": "The Black Chrysler Limousine accommodates up to eight passengers and delivers a premium travel experience. Perfect for special events, corporate gatherings, or upscale nights out, it ensures comfort and style from start to finish.",
+      "image": "/feet/black-chrysler-limousine.jpg",
+      "capacity": "Up to 8 adults",
+      "features": ["Special events", "Corporate gatherings", "Upscale nights out", "Premium experience"],
+      "category": "limo"
+    },
+    {
+      "id": "white-chrysler-limo",
+      "name": "White Chrysler Limousine Up To 8 Adults",
+      "description": "The White Chrysler Limousine seats up to eight adults and adds a refined touch to weddings, celebrations, or formal events. Spacious interiors and modern amenities create a memorable travel experience for any occasion.",
+      "image": "/feet/white-chrysler-limousine.jpg",
+      "capacity": "Up to 8 adults",
+      "features": ["Weddings", "Celebrations", "Formal events", "Modern amenities"],
+      "category": "limo"
+    },
+    {
+      "id": "18-passenger-party-bus",
+      "name": "18 Passenger Party Bus",
+      "description": "Our 18 Passenger Party Bus is designed for group travel with entertainment in mind. With comfortable seating and onboard features, it is ideal for birthdays, sporting events, or nights out with friends, offering a fun and lively ride.",
+      "image": "/feet/18-passenger-party-bus.jpg",
+      "capacity": "18 passengers",
+      "features": ["Birthdays", "Sporting events", "Nights out", "Entertainment features"],
+      "category": "bus"
+    },
+    {
+      "id": "22-passenger-shuttle",
+      "name": "22 Passenger Shuttle Bus",
+      "description": "The 22 Passenger Shuttle Bus provides reliable and spacious transportation for medium-sized groups. Ideal for corporate events or airport transfers, it ensures comfort, convenience, and enough room for luggage while traveling in Houston and nearby areas.",
+      "image": "/feet/22-passenger-shuttle-bus.jpg",
+      "capacity": "22 passengers",
+      "features": ["Corporate events", "Airport transfers", "Medium groups", "Luggage space"],
+      "category": "bus"
+    },
+    {
+      "id": "27-passenger-corporate",
+      "name": "27 Passenger Corporate Shuttle Bus",
+      "description": "The 27 Passenger Corporate Shuttle Bus is perfect for larger corporate groups or event transportation. With ample seating and professional interiors, it ensures all passengers travel together comfortably while maintaining efficiency and reliability.",
+      "image": "/feet/23-passenger-corporate-shuttle-bus.jpg",
+      "capacity": "27 passengers",
+      "features": ["Large corporate groups", "Event transportation", "Professional interiors", "Efficiency"],
+      "category": "bus"
+    }
+  ],
+  "categories": [
+    {
+      "id": "sedan",
+      "name": "Luxury Sedans",
+      "description": "Elegant and comfortable for individual and small group travel"
+    },
+    {
+      "id": "suv",
+      "name": "SUVs & Vans",
+      "description": "Spacious vehicles perfect for families and small groups"
+    },
+    {
+      "id": "limo",
+      "name": "Limousines",
+      "description": "Premium stretch limos for special occasions and celebrations"
+    },
+    {
+      "id": "van",
+      "name": "Executive Vans",
+      "description": "Professional transportation for corporate and VIP travel"
+    },
+    {
+      "id": "bus",
+      "name": "Shuttle Buses",
+      "description": "Large capacity vehicles for group events and corporate travel"
+    }
+  ],
+  "cta": {
+    "title": "Ride in Style With Our Best Limousine Service in Houston, TX",
+    "subtitle": "Book your luxury transportation today and experience the difference",
+    "buttonText": "Book Now",
+    "buttonHref": "#booking"
+  },
+  "features": [
+    {
+      "icon": "shield",
+      "title": "Licensed & Insured",
+      "description": "All vehicles are fully licensed and insured for your safety"
+    },
+    {
+      "icon": "clock",
+      "title": "24/7 Availability",
+      "description": "Book any time with our round-the-clock service"
+    },
+    {
+      "icon": "star",
+      "title": "Premium Service",
+      "description": "Professional chauffeurs and pristine vehicles"
+    }
+  ]
+}

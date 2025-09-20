@@ -1,0 +1,132 @@
+@import "tailwindcss";
+
+:root {
+  /* Force dark mode - no light mode variables */
+  --background: #0a0a0a;
+  --foreground: #ededed;
+  --primary: #fbff00ec; /* LimoLux Primary: Yellow */
+  --primary-dark: #bfa800; /* LimoLux Primary Dark: Deep Gold */
+  --primary-light: #fff9cc; /* LimoLux Primary Light: Pale Yellow */
+  --secondary: #3b3b98; /* Deep Blue-Violet */
+  --accent: #00b894; /* Teal */
+  --error: #ff7675; /* Soft Red */
+  --border: #e5e7eb; /* Light Gray */
+}
+
+/*
+THEME COLORS (LimoLux) - DARK MODE ONLY
+- Primary: #fbff00ec (Yellow)
+- Primary Dark: #bfa800 (Deep Gold)
+- Primary Light: #fff9cc (Pale Yellow)
+- Background: #0a0a0a (dark)
+- Foreground: #ededed (light text on dark)
+*/
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  /* Premium theme tokens - Dark mode only */
+  --color-primary: var(--primary); /* Use root --primary for all primary backgrounds */
+  --color-primary-foreground: #0b0f14; /* Deep charcoal for contrast on gold */
+  --color-surface: #0f1218; /* Card/section surface on dark */
+  --color-muted: #9ca3af; /* Muted text */
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+/* Remove media query - force dark mode everywhere */
+/* @media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+} */
+
+/* Force dark mode regardless of system preference */
+* {
+  color-scheme: dark !important;
+}
+
+html {
+  color-scheme: dark !important;
+}
+
+html.light,
+html[data-theme="light"] {
+  color-scheme: dark !important;
+}
+
+/* Override any potential light mode styles */
+@media (prefers-color-scheme: light) {
+  :root {
+    --background: #0a0a0a !important;
+    --foreground: #ededed !important;
+  }
+  
+  body {
+    background: #0a0a0a !important;
+    color: #ededed !important;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.section-spacing {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  gap: 1rem;
+}
+
+.luxury-badge {
+  background: #fff;
+  color: #bfa800;
+  border: 2px solid #bfa800;
+  border-radius: 9999px;
+  font-weight: 600;
+  font-size: 1rem;
+  box-shadow: none;
+  letter-spacing: 0.01em;
+  transition: background 0.2s, color 0.2s;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+.luxury-badge .rating-text {
+  color: #bfa800;
+  text-shadow: none;
+  font-size: 1em;
+  font-weight: 600;
+}
+.luxury-badge .text-yellow-400 {
+  color: #bfa800 !important;
+  filter: none;
+}
+.luxury-badge:hover {
+  background: #f8fafc;
+  color: #bfa800;
+}
+
+.trusted-badge {
+  background: #fff;
+  color: #bfa800;
+  border: 2px solid #bfa800;
+  border-radius: 9999px;
+  font-weight: 700;
+  font-size: 0.95rem;
+  box-shadow: none;
+  letter-spacing: 0.01em;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+
+/* Line clamp utility for text truncation */
+.line-clamp-3 {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}

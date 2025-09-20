@@ -1,0 +1,29 @@
+{
+  "heading": "About 24 Hour Limo For You?",
+  "subheading": "",
+  "intro": "At 24 Hour Limo For You, we are committed to providing top-notch transportation services that blend luxury, comfort, and reliability. With years of experience in the transportation industry, we cater to both personal and corporate clients in Houston and beyond, ensuring a stress-free, premium travel experience every time.",
+  "story": [
+    "Our fleet includes a wide range of vehicles, from luxury sedans and stretch limousines to party buses and executive shuttle vans. Each vehicle is carefully maintained to provide the highest level of comfort, ensuring your journey is as smooth and enjoyable as possible.",
+    "We understand that every trip is unique, which is why our services are tailored to meet your specific needs. Whether it’s an airport transfer, corporate event, wedding, or night out, our professional chauffeurs are here to ensure your experience exceeds expectations."
+  ],
+  "highlights": [
+    { "icon": "shield", "title": "Licensed & Insured", "description": "Operate under strict safety standards with fully insured vehicles and vetted chauffeurs." },
+    { "icon": "clock", "title": "Always On Time", "description": "24/7 availability with precise scheduling and live ride monitoring." },
+    { "icon": "star", "title": "Customer-First", "description": "White‑glove support from booking to drop‑off with a 4.9/5 average rating." }
+  ],
+  "stats": [
+    { "label": "Years of Service", "value": "15+" },
+    { "label": "Rides Completed", "value": "25k+" },
+    { "label": "Avg. Rating", "value": "4.9" },
+    { "label": "Cities Covered", "value": "50+" }
+  ],
+
+  "cta": {
+    "title": "Discover the 24 Hour Limo difference",
+    "subtitle": "Explore our fleet or get a tailored quote in under a minute.",
+    "buttonText": "View Fleet",
+    "buttonHref": "/fleet"
+  }
+}
+
+
